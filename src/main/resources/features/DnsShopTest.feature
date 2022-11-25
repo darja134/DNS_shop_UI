@@ -8,7 +8,7 @@ Feature: Check filtration and characteristics on DNS smartphone page
     And I sort list of smartphones from expensive to cheapest
     And I choose the first smartphone from the list
     And I take a screenshot with filepath <filepath> and filename selected-samsung-smartphone
-    Then I verify smartphone <builtInMemory> specifications for Samsung
+    Then I verify smartphone <builtInMemory> memory specification for Samsung
     And I close browser
 
     Examples:
@@ -24,7 +24,7 @@ Feature: Check filtration and characteristics on DNS smartphone page
     And I sort list of smartphones from expensive to cheapest
     And I choose the first smartphone from the list
     And I take a screenshot with filepath <filepath> and filename selected-apple-smartphone
-    Then I verify smartphone <ramMemory> specifications for Apple
+    Then I verify smartphone <ramMemory> memory specification for Apple
     And I close browser
 
     Examples:

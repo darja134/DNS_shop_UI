@@ -75,6 +75,7 @@ public class SmartphoneSectionPage {
     }
 
     public void selectSamsungBuiltInMemory() {
+        wait.until(ExpectedConditions.visibilityOf(builtInMemorySectionExpand));
         action = new Actions(driver);
         action.scrollToElement(builtInMemorySectionExpand).perform();
         builtInMemorySectionExpand.click();

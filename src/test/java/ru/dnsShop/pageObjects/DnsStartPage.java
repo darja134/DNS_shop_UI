@@ -26,7 +26,6 @@ public class DnsStartPage {
     }
 
     public void open() {
-        driver.manage().window().maximize();
         driver.get("https://www.dns-shop.ru");
     }
 
